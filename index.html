@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Agustsinus Pardamean Purba" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Agustsinus Pardamean Purba">Agustinus Pardamean Purba</h1>
+
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:agusydk3@gmail.com" class="contact-link">agusydk3@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://wa.me/62858866040557" class="contact-link" target="_blank">+62 858-8660-40557</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 08, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kalideres, Jakarta, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/share/1B64s4aFaz/?mibextid=wwXIfr" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="assets/AgusCV.pdf" class="project-link-btn download-cv-btn" download target="_blank" rel="noopener">
+          <ion-icon name="download-outline"></ion-icon>
+          <span>Download CV</span>
+        </a>
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+             Saya adalah seorang mahasiswa yang passionate dalam bidang web development dan software engineering. Saat ini saya adalah fresh graduate dan
+			 belum memiliki pengalaman kerja formal, namun telah menyelesaikan berbagai proyek secara mandiri. Saya antusias untuk belajar hal-hal baru
+			 dan selalu berusaha menciptakan solusi yang scalable dengan clean code. Saya sedang mencari kesempatan magang atau kerja penuh waktu untuk
+			 mengaplikasikan pengetahuan saya dan berkontribusi dalam tim development
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Up To</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 14.5L3 21L9 15L15 9L21 3L15 9L9.5 14.5Z" stroke="#FF6B35" stroke-width="2" fill="#FF6B35" opacity="0.8"/>
+                  <circle cx="15" cy="9" r="2" fill="#FF6B35"/>
+                  <path d="M9 15L6 18" stroke="#FF6B35" stroke-width="2"/>
+                </svg>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🔭 Proyek Pribadi</h4>
+                <p class="service-item-text">
+                  Saya sedang mengerjakan proyek pribadi untuk mengasah keterampilan saya dan mewujudkan ide-ide yang saya miliki.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 19.5C4 18.1 5.1 17 6.5 17H20V3H6.5C5.1 3 4 4.1 4 5.5V19.5Z" stroke="#4CAF50" stroke-width="2" fill="none"/>
+                  <path d="M20 17V21H6.5C5.1 21 4 19.9 4 18.5S5.1 16 6.5 16H20" stroke="#4CAF50" stroke-width="2" fill="none"/>
+                  <path d="M8 7H16" stroke="#4CAF50" stroke-width="1.5"/>
+                  <path d="M8 10H14" stroke="#4CAF50" stroke-width="1.5"/>
+                  <path d="M8 13H12" stroke="#4CAF50" stroke-width="1.5"/>
+                </svg>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🌱 Learning</h4>
+                <p class="service-item-text">
+                  Saat ini saya sedang mempelajari Next.js, Node.js, Laravel, PHP, Python, dan pengembangan web untuk memperluas pengetahuan serta keahlian saya.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="5" r="3" stroke="#2196F3" stroke-width="2" fill="#2196F3" opacity="0.8"/>
+                  <circle cx="6" cy="12" r="3" stroke="#2196F3" stroke-width="2" fill="#2196F3" opacity="0.8"/>
+                  <circle cx="18" cy="19" r="3" stroke="#2196F3" stroke-width="2" fill="#2196F3" opacity="0.8"/>
+                  <path d="M8.59 13.51L15.42 17.49" stroke="#2196F3" stroke-width="2"/>
+                  <path d="M15.41 6.51L8.59 10.49" stroke="#2196F3" stroke-width="2"/>
+                </svg>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">⚡ Open Source</h4>
+                <p class="service-item-text">
+                  Saya antusias dalam membuat proyek open source dan berkontribusi pada komunitas pengembang.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="modal-content">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <!-- Modal content will go here -->
+          </section>
+        </div>
+
+      </article>
+
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SMK Yadika 3</h4>
+              <span>2017 — 2020</span>
+              <p class="timeline-text">
+                Lulus tahun 2020 dari SMK Yadika 3.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universitas Bina Sarana Informatika</h4>
+              <span>2022 — Sekarang (Semester 6)</span>
+              <p class="timeline-text">
+                Mahasiswa aktif di Universitas Bina Sarana Informatika, saat ini sedang menempuh semester 6.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mahasiswa Aktif</h4>
+              <span>2022 — Sekarang</span>
+              <p class="timeline-text">
+                Saat ini saya masih fokus menyelesaikan studi di Universitas Bina Sarana Informatika. Belum memiliki pengalaman kerja formal, tetapi aktif mengembangkan keterampilan melalui proyek perkuliahan dan pembelajaran mandiri.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Proyek Akademik</h4>
+              <span>2022 — Sekarang</span>
+              <p class="timeline-text">
+                Telah mengerjakan berbagai proyek akademik selama perkuliahan, termasuk pengembangan aplikasi web dan mobile sebagai bagian dari tugas kuliah dan proyek semester.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">CERTIFICATIONS</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pelatihan Linux</h4>
+              <span>Teknik Komputer dan Jaringan • 2018</span>
+              <p class="timeline-text">
+                Pelatihan selama 100 jam dengan materi Linux dan Open Source, LAN (Local Area Network), WAN (Wide Area Network), Fiber Network, dan Network Security.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sertifikat Kualifikasi Level II - Teknik Komputer dan Jaringan</h4>
+              <span>Teknik Komputer dan Jaringan • 2020</span>
+              <p class="timeline-text">
+                Computer and Network Technician, berlaku selama 3 tahun
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+              </div>
+              <p class="timeline-text">JavaScript, Dart, Python, Go, PHP, HTML5</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks & Libraries</h5>
+              </div>
+              <p class="timeline-text">Laravel, Flutter, Next.js, Express.js, Bootstrap, Node.js</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Databases & Tools</h5>
+              </div>
+              <p class="timeline-text">MongoDB, MySQL, Git, JWT</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Development Skills</h5>
+              </div>
+              <p class="timeline-text">API Integration, Mobile Development, REST API Development</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects" data-projects-container>
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- Toko Online Product Digital -->
+            <li class="project-item active" data-filter-item data-category="web development" data-project-id="toko-online">
+              <a href="#" class="project-link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="toko online digital" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Toko Online Product Digital</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <!-- Website Listrik Pascabayar -->
+            <li class="project-item active" data-filter-item data-category="web development" data-project-id="listrik-pascabayar">
+              <a href="#" class="project-link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="listrik pascabayar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Website Listrik Pascabayar</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <!-- Resi Tracker Mobile App -->
+            <li class="project-item active" data-filter-item data-category="applications" data-project-id="resi-tracker">
+              <a href="#" class="project-link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="resi tracker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Resi Tracker</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="project-details" data-project-details style="display: none;">
+          <button class="back-btn" data-back-btn>
+            <ion-icon name="arrow-back-outline"></ion-icon>
+            <span>Back to Projects</span>
+          </button>
+
+          <div class="project-details-content">
+            <h3 class="h3 project-details-title" data-project-details-title></h3>
+            
+            <figure class="project-details-banner">
+              <img src="" alt="" loading="lazy" data-project-details-img>
+            </figure>
+
+            <div class="project-details-meta">
+              <p class="project-category-label">Category:</p>
+              <p class="project-category-value" data-project-details-category></p>
+            </div>
+
+            <div class="project-description">
+              <h4 class="h4">Description:</h4>
+              <p class="project-description-text" data-project-details-description></p>
+            </div>
+
+            <div class="project-links">
+              <div class="project-source">
+                <h4 class="h4">Source:</h4>
+                <a href="#" class="project-link-btn" data-project-details-source target="_blank">
+                  <ion-icon name="logo-github"></ion-icon>
+                  <span>View Source Code</span>
+                </a>
+              </div>
+
+              <div class="project-demo">
+                <h4 class="h4">Demo:</h4>
+                <a href="#" class="project-link-btn" data-project-details-demo target="_blank">
+                  <ion-icon name="globe-outline"></ion-icon>
+                  <span>View Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
